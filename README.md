@@ -1,4 +1,4 @@
-# League of Legends bot
+# Clash Royale Bot
 
 Documentation of my [Clash Royale](http://telegram.me/princebot) Bot for Telegram.
 
