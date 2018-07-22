@@ -1,6 +1,6 @@
 # Clash Royale Bot
 
-Documentation of my [Clash Royale](http://telegram.me/princebot) Bot for Telegram.
+Documentation of my [Clash Royale](http://t.me/princebot) Bot for Telegram.
 
 <!-- # Requirements
 
