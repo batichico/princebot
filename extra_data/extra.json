@@ -1,0 +1,10 @@
+{
+    "token":"TELEGRAM API TOKEN",
+    "crtoken":"clash royale API TOKEN",
+    "admins":[
+        "admin users id"
+    ],
+    "beta":[
+        "beta users id"
+    ]
+}

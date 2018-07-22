@@ -1,0 +1,83 @@
+{
+  "start":{
+    "es": "¡Bienvenido [{}](tg://user?id={})!\n\nPara ver el funcionamiento del bot, escribe /help",
+    "en": "Welcome [{}](tg://user?id={})!\n\nTo see how this bot works, type /help",
+    "eus": "Ongi etrorri [{}](tg://user?id={})!\n\nIdatzi /help jakiteko nola funtzionazen duen Bota"
+  },
+  "stop":{
+    "es": "¡Hasta pronto [{}](tg://user?id={})!",
+    "en": "Bye [{}](tg://user?id={})!",
+    "eus": "Agur [{}](tg://user?id={})!"
+  },
+  "lang":{
+    "es": "Tu idioma actual es: *Español*\n\nUtiliza los botones de abajo para cambiar el idioma del bot",
+    "en": "Your current language is: *English*\n\nUse the buttons from below to change the bot language",
+    "eus": "Aukeratu duzun hizkuntza: *Euskera*\n\nErabili azpiko botoiak hizkuntza aldatzeko"
+  },
+  "lang_updated":{
+    "es": "Idioma actualizado a: *Español*\n\nUtiliza los botones de abajo para cambiar el idioma del bot",
+    "en": "Language updated to: *English*\n\nUse the buttons from below to change the bot language",
+    "eus": "Hizkuntza aldatuta: *Euskera*\n\nErabili azpiko botoiak hizkuntza aldatzeko"
+  },
+  "not_user": "You are not registered, use /start",
+  "chests":{
+    "es": "!cofres",
+    "en": "!chests"
+  },
+  "m_chests":{
+    "es": "Súper mágico: 30\nMágico: 3",
+    "en": "Super magic: 30\nMagic: 3"
+  },
+  "registration":{
+    "es": "/registro",
+    "en": "/registration",
+    "eus": "/registroa"
+  },
+  "m_registration":{
+    "es": "Bienvenido al registro de jugadores a continuación introduce sólamente tu tag de jugador de Clash royale:\nPor ejemplo #2YR2G80GQ . Da igual si pones # o no",
+    "en": "Welcome to player registration, if you want regist your Clash royale account, write your Clash royale tag player:\nFor example #2YR2G80GQ. You can write tag with # or without #.",
+    "eus": "Ongi etorri jokalriaren erregistrora, Clash Royal kontua erregistratu nahi baduzu, idatzi zure Clash royale tag jokalaria:\nAdibidez #2YR2G80GQ. Idatzi dezakezu taga # edo # gabe."
+  },
+  "private_registration":{
+    "es": "Para registrarte háblame por privado",
+    "en": "If you want regist, chat with me in private chat",
+    "eus": "Erregistratu nahi baduzu, hitz egin nirekin pribatuan"
+  },
+  "registration_button":{
+    "es":"Registro",
+    "en":"Registration",
+    "eus":"Erregistroa"
+  },
+  "clanwar":{
+    "es":"!guerraclan",
+    "en": "!clanwar",
+    "eus": "!clangerra"
+  },
+  "m_clanwar":{
+    "es":"La guerra ha empezado",
+    "en":"The war is started",
+    "eus":"Gerra hasi da"
+  },
+  "war":{
+    "es":"!guerra",
+    "en":"!war",
+    "eus":"!gerra"
+  },
+  "m_war":{
+    "es":"Datos guerra:",
+    "en":"War stats:",
+    "eus":"Gerra datuak:"
+  },
+  "recolection":{
+    "es":"!recoleccion",
+    "en":"!recolection",
+    "eus":"!bilketa"
+
+  },
+  "m_recolection":{
+    "es":"Datos recolección:",
+    "en":"Recolection stats:",
+    "eus":"Bilketa datuak:"
+  }
+
+}
