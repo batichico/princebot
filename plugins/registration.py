@@ -57,8 +57,8 @@ def step_registration(m):
             if "_" in name.lower():
                 name = name.replace("_", "\_")
             keyboard = types.InlineKeyboardMarkup()
-            keyboard.add(types.InlineKeyboardButton(responses['acept'][lang(cid)], callback_data='acept'),
-            types.InlineKeyboardButton(responses['cancel'][lang(cid)], callback_data='cancel'))
+            keyboard.add(types.InlineKeyboardButton(responses['btn_acept'][lang(cid)], callback_data='acept'),
+            types.InlineKeyboardButton(responses['btn_cancel'][lang(cid)], callback_data='cancel'))
 
             bot.send_message(cid,responses['a_is_duplicated'][lang(cid)].format(name), reply_markup=keyboard, disable_web_page_preview=True)
         else:
@@ -94,7 +94,7 @@ def callback_handler(call):
 
   elif calculo == 'cancel':
 
-      bot.edit_message_text(['a_validation_cancel'][lang(cid)],cid,mid,reply_markup=None)
+      bot.edit_message_text(responses['a_validation_cancel'][lang(cid)],cid,mid,reply_markup=None)
 
 
 def step_validation(m):
@@ -202,16 +202,12 @@ def ocr_space_file(filename, overlay=True, api_key= extra['ocrtoken'], language=
                'apikey':  extra['ocrtoken'],
                'language': 'spa',
                }
-
     with open(filename, 'rb') as f:
         r = requests.post('https://api.ocr.space/parse/image',
                           files={filename: f},
                           data=payload,
                           )
-    print(r.content.decode())
     return r.content.decode()
-
-
 def tagValidation(tag,idUser):
     print("entramos a validacion")
     conn = pymysql.connect(user=extra['userDB'], password=extra['userPassDB'],
@@ -221,38 +217,28 @@ def tagValidation(tag,idUser):
                              cursorclass=pymysql.cursors.DictCursor)
 
     cursor = conn.cursor()
-
     sql = "SELECT  idCr FROM Player WHERE idTelegram = %s "
     cursor.execute(sql,(idUser))
     row = cursor.fetchone()
     bdTag = str(row["idCr"])
-
     arrayBDTag = list(bdTag)
     arrayPhotoTag = list(tag)
     count = 0
     respuesta = ""
     for i in range(len(arrayBDTag)):
-
         if arrayBDTag[i] == arrayPhotoTag[i]:
             count= count+1
             print(str(arrayBDTag[i]) + " " + str(arrayPhotoTag[i]))
-
     porcentaje = len(arrayBDTag) - count
     print(str(porcentaje) + " " + str(len(arrayBDTag)))
-
     if porcentaje < len(arrayBDTag)/2 :
-
         sql = "UPDATE Player SET validado=1 WHERE idTelegram= %s AND idCr = %s"
         cursor.execute(sql,(idUser,bdTag))
-
         respuesta =  "validado"
         conn.commit()
-
-
         cursor.close()
         conn.close()
     else:
-
         respuesta = "no validado"
     print(respuesta)
     return respuesta
