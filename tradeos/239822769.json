@@ -1,0 +1,28 @@
+[
+    {
+        "ofertas_gente": [
+            {
+                "idUsuario": 239822769,
+                "cartas": [
+                    "vulpix alola",
+                    "beldum shiny",
+                    "magicarp shiny"
+                ],
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+            }
+        ],
+        "idMessage": 1747,
+        "img": 31231223123,
+        "ofrece": [
+            "vulpix alola",
+            "beldum shiny",
+            "magicarp shiny"
+        ],
+        "idCreador": 239822769,
+        "pide": "machoke shiny",
+        "idGrupo": [
+            239822769
+        ],
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+    }
+]

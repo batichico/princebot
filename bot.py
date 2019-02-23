@@ -8,4 +8,5 @@ importdir.do('plugins', globals())
 #                    POLLING                    #
 #################################################
 
+bot.send_message(239822769, "Bot encendido")
 bot.polling()

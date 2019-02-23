@@ -1,0 +1,707 @@
+[
+    {
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "pide": "ewiz",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 239822769,
+        "ofertas_gente": [
+            {
+                "idUsuario": 239822769,
+                "cartas": [
+                    "cementerio",
+                    "megacaballero"
+                ],
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+            },
+            {
+                "idUsuario": 261649585,
+                "cartas": [
+                    "megacaballero"
+                ],
+                "nombreUsuario": "J\u00d8ELTTX"
+            }
+        ],
+        "img": 31231223123,
+        "ofrece": [
+            "megacaballero",
+            " mago de hielo",
+            " cementerio"
+        ],
+        "idMessage": 1600
+    },
+    {
+        "nombreCreador": "Xavi",
+        "pide": "tronco, chispitas",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 229068645,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "por ballesta?"
+        ],
+        "idMessage": 1816
+    },
+    {
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "pide": "xavi",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 239822769,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "joel",
+            "rabonado",
+            "laendri"
+        ],
+        "idMessage": 1635
+    },
+    {
+        "nombreCreador": "Alonso",
+        "pide": "bruja",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 303241493,
+        "ofertas_gente": [
+            {
+                "idUsuario": 303241493,
+                "cartas": [
+                    "todas",
+                    "casi"
+                ],
+                "nombreUsuario": "Alonso"
+            },
+            {
+                "idUsuario": 235017306,
+                "cartas": [
+                    "casi",
+                    "todas"
+                ],
+                "nombreUsuario": "LFX"
+            },
+            {
+                "idUsuario": 12620168,
+                "cartas": [
+                    "todas",
+                    "casi"
+                ],
+                "nombreUsuario": "Marcos e"
+            },
+            {
+                "idUsuario": 261649585,
+                "cartas": [
+                    "todas"
+                ],
+                "nombreUsuario": "J\u00d8ELTTX"
+            },
+            {
+                "idUsuario": 207941630,
+                "cartas": [
+                    "casi"
+                ],
+                "nombreUsuario": "Jorge"
+            }
+        ],
+        "img": 31231223123,
+        "ofrece": [
+            "casi",
+            "todas"
+        ],
+        "idMessage": 1664
+    },
+    {
+        "nombreCreador": "LFX",
+        "pide": "barril duendes",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 235017306,
+        "ofertas_gente": [
+            {
+                "idUsuario": 12620168,
+                "cartas": [
+                    "todas"
+                ],
+                "nombreUsuario": "Marcos e"
+            },
+            {
+                "idUsuario": 239822769,
+                "cartas": [
+                    "todas"
+                ],
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+            }
+        ],
+        "img": 31231223123,
+        "ofrece": [
+            "todas"
+        ],
+        "idMessage": 1673
+    },
+    {
+        "nombreCreador": "Marcos e",
+        "pide": "minero",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 12620168,
+        "ofertas_gente": [
+            {
+                "idUsuario": 12620168,
+                "cartas": [
+                    "6",
+                    "9"
+                ],
+                "nombreUsuario": "Marcos e"
+            },
+            {
+                "idUsuario": 235017306,
+                "cartas": [
+                    "8",
+                    "15",
+                    "16"
+                ],
+                "nombreUsuario": "LFX"
+            },
+            {
+                "idUsuario": 207941630,
+                "cartas": [
+                    "20"
+                ],
+                "nombreUsuario": "Jorge"
+            },
+            {
+                "idUsuario": 239822769,
+                "cartas": [
+                    "5",
+                    "6",
+                    "7",
+                    "10",
+                    "2",
+                    "3"
+                ],
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+            },
+            {
+                "idUsuario": 221351806,
+                "cartas": [
+                    "20"
+                ],
+                "nombreUsuario": "miguel"
+            },
+            {
+                "idUsuario": 261649585,
+                "cartas": [
+                    "17"
+                ],
+                "nombreUsuario": "J\u00d8ELTTX"
+            },
+            {
+                "idUsuario": 236130377,
+                "cartas": [
+                    "6",
+                    "15",
+                    "17",
+                    "14",
+                    "11",
+                    "13"
+                ],
+                "nombreUsuario": "Gonzalo"
+            },
+            {
+                "idUsuario": 303241493,
+                "cartas": [
+                    "20",
+                    "12",
+                    "10",
+                    "11",
+                    "9",
+                    "7",
+                    "6",
+                    "8",
+                    "3",
+                    "5",
+                    "2",
+                    "13",
+                    "1",
+                    "4",
+                    "16",
+                    "19",
+                    "18",
+                    "17"
+                ],
+                "nombreUsuario": "Alonso"
+            },
+            {
+                "idUsuario": 179030943,
+                "cartas": [
+                    "1",
+                    "5"
+                ],
+                "nombreUsuario": "Juanjo \u26a1\ufe0f"
+            },
+            {
+                "idUsuario": 154762536,
+                "cartas": [
+                    "20",
+                    "17",
+                    "14",
+                    "15",
+                    "19"
+                ],
+                "nombreUsuario": "Rafius"
+            }
+        ],
+        "img": 31231223123,
+        "ofrece": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+        ],
+        "idMessage": 1679
+    },
+    {
+        "nombreCreador": "J\u00d8ELTTX",
+        "pide": "megacaballero",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 261649585,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "bruja noct",
+            "fantasma real",
+            "y varias mas"
+        ],
+        "idMessage": 1701
+    },
+    {
+        "nombreCreador": "Carlos",
+        "pide": "pekka",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 275560911,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "ejercito de esqueletos",
+            "barril de barbaros",
+            "furia",
+            "hielo"
+        ],
+        "idMessage": 1784
+    },
+    {
+        "nombreCreador": "\u2716\ufe0f",
+        "pide": "minero",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 514316337,
+        "ofertas_gente": [
+            {
+                "idUsuario": 207941630,
+                "cartas": [
+                    "dragon infernal"
+                ],
+                "nombreUsuario": "Jorge"
+            },
+            {
+                "idUsuario": 6074939,
+                "cartas": [
+                    "sabueso"
+                ],
+                "nombreUsuario": "Carlos"
+            },
+            {
+                "idUsuario": 33046561,
+                "cartas": [
+                    "dragon infernal"
+                ],
+                "nombreUsuario": "Pablo"
+            },
+            {
+                "idUsuario": 179030943,
+                "cartas": [
+                    "sabueso"
+                ],
+                "nombreUsuario": "Juanjo \u26a1\ufe0f"
+            }
+        ],
+        "img": 31231223123,
+        "ofrece": [
+            "sabueso",
+            "arquero",
+            "cementerio",
+            "dragon infernal"
+        ],
+        "idMessage": 1810
+    },
+    {
+        "nombreCreador": "CRNT",
+        "pide": "verdugo",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 13921920,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [],
+        "idMessage": 0
+    },
+    {
+        "nombreCreador": "Rafius",
+        "pide": "barril duende",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 154762536,
+        "ofertas_gente": [
+            {
+                "idUsuario": 229068645,
+                "cartas": [
+                    "pr\u00edncipe"
+                ],
+                "nombreUsuario": "Xavi"
+            },
+            {
+                "idUsuario": 236130377,
+                "cartas": [
+                    "pekka"
+                ],
+                "nombreUsuario": "Gonzalo"
+            },
+            {
+                "idUsuario": 350515214,
+                "cartas": [
+                    "pekka"
+                ],
+                "nombreUsuario": "Ana"
+            },
+            {
+                "idUsuario": 33046561,
+                "cartas": [
+                    "golem"
+                ],
+                "nombreUsuario": "Pablo"
+            }
+        ],
+        "img": 31231223123,
+        "ofrece": [
+            "pr\u00edncipe",
+            "pr\u00edncipe oscuro",
+            "bruja",
+            "golem",
+            "pekka"
+        ],
+        "idMessage": 1845
+    },
+    {
+        "nombreCreador": "Guerra",
+        "pide": "bola de fuego",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 426487582,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "mosquetera",
+            "megaeabirro",
+            "minipekka",
+            "mago",
+            "cohete",
+            "recolector",
+            "lanzadardos",
+            "lapida"
+        ],
+        "idMessage": 1946
+    },
+    {
+        "nombreCreador": "Marcos e",
+        "pide": "gigante",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 12620168,
+        "ofertas_gente": [
+            {
+                "idUsuario": 33046561,
+                "cartas": [
+                    "tus muertos"
+                ],
+                "nombreUsuario": "Pablo"
+            }
+        ],
+        "img": 31231223123,
+        "ofrece": [
+            "golem de hielo",
+            "lapida",
+            "curaci\u00f3n",
+            "zappies",
+            "torre bombardera",
+            "horno",
+            "mago",
+            "choza de duendes",
+            "choza de b\u00e1rbaros",
+            "tus muertos"
+        ],
+        "idMessage": 1952
+    },
+    {
+        "nombreCreador": "Ruben",
+        "pide": "bola",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 9489319,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "golem de hielo",
+            "mosquetera",
+            "choza duendes",
+            "minipekka",
+            "recolector"
+        ],
+        "idMessage": 1961
+    },
+    {
+        "nombreCreador": "Guerra",
+        "pide": "bola de fuego",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 426487582,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "minipekka",
+            "mago",
+            "megaesbirro",
+            "horno",
+            "mosquetera",
+            "ariete",
+            "torreinfernal",
+            "choza duendes",
+            "recolector",
+            "cerdos",
+            "choza barbaros",
+            "cohete",
+            "triplemosquetera"
+        ],
+        "idMessage": 2037
+    },
+    {
+        "nombreCreador": "Ana",
+        "pide": "monta",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 350515214,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [],
+        "idMessage": 0
+    },
+    {
+        "nombreCreador": "Jorge",
+        "pide": "bola",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 207941630,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "valkyria",
+            "megaesbirro",
+            "triple",
+            "horno",
+            "minipekka",
+            "zappies",
+            "mosquetera..."
+        ],
+        "idMessage": 2051
+    },
+    {
+        "nombreCreador": "Rafius",
+        "pide": "bolitas de nieve",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 154762536,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [],
+        "idMessage": 0
+    },
+    {
+        "nombreCreador": "Jorge",
+        "pide": "bola de fuego",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 207941630,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "todo menos monta"
+        ],
+        "idMessage": 2306
+    },
+    {
+        "nombreCreador": "Klepasky",
+        "pide": "tronco, fantasma real",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 598164893,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [],
+        "idMessage": 0
+    },
+    {
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "pide": "ariete",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 239822769,
+        "ofertas_gente": [
+            {
+                "idUsuario": 6132900,
+                "cartas": [
+                    "valkiria"
+                ],
+                "nombreUsuario": "siaspeed"
+            },
+            {
+                "idUsuario": 179030943,
+                "cartas": [
+                    "valkiria"
+                ],
+                "nombreUsuario": "Juanjo \u26a1\ufe0f"
+            }
+        ],
+        "img": 31231223123,
+        "ofrece": [
+            "valkiria",
+            "lapida",
+            "mago"
+        ],
+        "idMessage": 2458
+    },
+    {
+        "nombreCreador": "siaspeed",
+        "pide": "",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 6132900,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "cu\u00e1l es la lista?"
+        ],
+        "idMessage": 2476
+    },
+    {
+        "nombreCreador": "Pablo",
+        "pide": "golem dos veces.",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 33046561,
+        "ofertas_gente": [
+            {
+                "idUsuario": 207941630,
+                "cartas": [
+                    "cualquiera menos drag\u00f3n"
+                ],
+                "nombreUsuario": "Jorge"
+            }
+        ],
+        "img": 31231223123,
+        "ofrece": [
+            "cualquiera menos drag\u00f3n",
+            "rayo o tornado."
+        ],
+        "idMessage": 2677
+    },
+    {
+        "nombreCreador": "miguel",
+        "pide": "tronco",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "idCreador": 221351806,
+        "ofertas_gente": [],
+        "img": 31231223123,
+        "ofrece": [
+            "le\u00f1ador",
+            "cementerio",
+            "sabueso",
+            "mago de hielo"
+        ],
+        "idMessage": 3226
+    },
+    {
+        "nombreCreador": "Juanjo \u26a1\ufe0f",
+        "idMessage": 3354,
+        "pide": "dragon infernal",
+        "idGrupo": [
+            -1001172317735
+        ],
+        "ofertas_gente": [
+            {
+                "idUsuario": 221351806,
+                "cartas": [
+                    "mago de hielo"
+                ],
+                "nombreUsuario": "miguel"
+            },
+            {
+                "idUsuario": 236130377,
+                "cartas": [
+                    "mago de hielo"
+                ],
+                "nombreUsuario": "Gonzalo"
+            }
+        ],
+        "img": 31231223123,
+        "ofrece": [
+            "le\u00f1ador",
+            "mago de hielo",
+            "bruja nocturna",
+            "cementerio"
+        ],
+        "idCreador": 179030943
+    }
+]

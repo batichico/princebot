@@ -1,0 +1,34 @@
+[
+    {
+        "img": 31231223123,
+        "ofrece": [
+            "cloud9",
+            "g2",
+            "edg",
+            "chinos"
+        ],
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001353253354
+        ],
+        "idCreador": 239822769,
+        "idMessage": 519,
+        "pide": "semifinalistas mundial",
+        "ofertas_gente": [
+            {
+                "cartas": [
+                    "cloud9"
+                ],
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+                "idUsuario": 239822769
+            },
+            {
+                "cartas": [
+                    "g2"
+                ],
+                "nombreUsuario": "Zoilken",
+                "idUsuario": 619446181
+            }
+        ]
+    }
+]

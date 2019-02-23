@@ -72,12 +72,51 @@
     "es":"!recoleccion",
     "en":"!recolection",
     "eus":"!bilketa"
-
   },
   "m_recolection":{
     "es":"Datos recolección:",
     "en":"Recolection stats:",
     "eus":"Bilketa datuak:"
+  },
+  "a_checking_tag":{
+    "es":"Comprobando tag...",
+    "en":"Checking tag...:",
+    "eus":"Tag-a bilatzen...:"
+  },
+  "a_is_duplicated":{
+    "es":"El tag: {} ya está registrado, introduce /registro para volver a intentar agregar una cuenta",
+    "en":"This tag: {} is already registred, introduce /registration to try to add new account",
+    "eus":"Tag hau {} bazegoen erregistratuta, idatzi /registroa shaitzeko berriro kontu berri bat sartzeko:"
+  },
+  "a_confirm_account":{
+    "es":"¿Confirmas el registro del usuario: {} ?",
+    "en":"Do you confirm to add this user: {} ?",
+    "eus":"Ziur zaude erregistro hau: {} gordetzeko?"
+  },
+  "a_tag_not_exist":{
+    "es":"El tag que has introducido no existe, prueba a introducirlo bien. /registro",
+    "en":"Introduced tag not exist, try to do better. /registration",
+    "eus":"Erregistro hau ez da existitzen, zahiatu berriz. /registroa"
+  },
+  "acept":{
+    "es":"Aceptar",
+    "en":"Acept",
+    "eus":"Ados"
+  },
+  "cancel":{
+    "es":"Cancelar",
+    "en":"Cancel",
+    "eus":"Desados"
+  },
+  "a_validation_acept":{
+    "es":"Ya estás registrado, ahora falta un último paso, validarte :)\nA continuación envía una captura del juego para confirmar que eres tu realmente, te envío un ejemplo para que lo veas",
+    "en":"Now you are registered :)\nNow send an screenshot of the game to validate account, then I send you an screenshot example",
+    "eus":"Erresgistratua zaude :)\nHorain bidali jokoaren argazkia zure kantua balioztatzeko, adibide bat bidaliko zaitut hobeto ulertzeko"
+  },
+  "a_validation_cancel":{
+    "es":"Cancelado, si quieres registrarte pulsa /registro",
+    "en":"Canceled, if you want to regist use /registration",
+    "eus":"Desonartuta, erregistratu nahi baduzu erabili /registroa"
   }
 
 }

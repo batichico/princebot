@@ -1,0 +1,25 @@
+[
+    {
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "img": 31231223123,
+        "idCreador": 239822769,
+        "pide": "ewiz",
+        "ofertas_gente": [
+            {
+                "nombreUsuario": "Chris",
+                "cartas": [
+                    "pato"
+                ],
+                "idUsuario": 619446181
+            }
+        ],
+        "idMessage": 1000740,
+        "ofrece": [
+            "tronco",
+            "pato"
+        ],
+        "idGrupo": [
+            -1001090423519
+        ]
+    }
+]

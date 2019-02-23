@@ -1,0 +1,185 @@
+[
+    {
+        "img": 31231223123,
+        "ofertas_gente": [
+            {
+                "cartas": [],
+                "idUsuario": 595390876,
+                "nombreUsuario": "principebetabot"
+            }
+        ],
+        "idMessage": 82,
+        "idCreador": 239822769,
+        "pide": "ewiz",
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001211683072
+        ],
+        "ofrece": [
+            "mago",
+            "cementerio",
+            "verdugo"
+        ]
+    },
+    {
+        "img": 31231223123,
+        "ofertas_gente": [
+            {
+                "cartas": [
+                    "peka"
+                ],
+                "idUsuario": 595390876,
+                "nombreUsuario": "principebetabot"
+            },
+            {
+                "cartas": [],
+                "idUsuario": 239822769,
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+            },
+            {
+                "cartas": [
+                    "peka"
+                ],
+                "idUsuario": 52033876,
+                "nombreUsuario": "Edurolp"
+            }
+        ],
+        "idMessage": 88,
+        "idCreador": 239822769,
+        "pide": "mago",
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001211683072
+        ],
+        "ofrece": [
+            "peka",
+            "ewiz"
+        ]
+    },
+    {
+        "img": 31231223123,
+        "ofertas_gente": [
+            {
+                "cartas": [
+                    "camello"
+                ],
+                "idUsuario": 52033876,
+                "nombreUsuario": "Edurolp"
+            },
+            {
+                "cartas": [
+                    "camello"
+                ],
+                "idUsuario": 239822769,
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+            }
+        ],
+        "idMessage": 94,
+        "idCreador": 239822769,
+        "pide": "cementerio",
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001211683072
+        ],
+        "ofrece": [
+            "camello",
+            "reymago",
+            "mk"
+        ]
+    },
+    {
+        "img": 31231223123,
+        "ofertas_gente": [],
+        "idMessage": 100,
+        "idCreador": 239822769,
+        "pide": "mago",
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001211683072
+        ],
+        "ofrece": [
+            "ewiz",
+            " mago de hielo",
+            " peka"
+        ]
+    },
+    {
+        "img": 31231223123,
+        "ofertas_gente": [],
+        "idMessage": 111,
+        "idCreador": 239822769,
+        "pide": "mago",
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001211683072
+        ],
+        "ofrece": [
+            "peka",
+            "mago de hielo",
+            "ewiz"
+        ]
+    },
+    {
+        "img": 31231223123,
+        "ofertas_gente": [],
+        "idMessage": 111,
+        "idCreador": 239822769,
+        "pide": "mago",
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001211683072
+        ],
+        "ofrece": [
+            "peka",
+            "mago de hielo",
+            "ewiz"
+        ]
+    },
+    {
+        "img": 31231223123,
+        "ofertas_gente": [
+            {
+                "cartas": [
+                    "houndor shiny"
+                ],
+                "idUsuario": 239822769,
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+            }
+        ],
+        "idMessage": 117,
+        "idCreador": 239822769,
+        "pide": "togepi shiny",
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001211683072
+        ],
+        "ofrece": [
+            "houndor shiny",
+            "tauros",
+            "moltres"
+        ]
+    },
+    {
+        "img": 31231223123,
+        "ofertas_gente": [],
+        "idMessage": 123,
+        "idCreador": 239822769,
+        "pide": "alfred, que nos sigan las luces",
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001211683072
+        ],
+        "ofrece": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
+    }
+]

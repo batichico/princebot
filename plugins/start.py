@@ -12,3 +12,5 @@ def start_handler(m):
             language = 'en'
         add_user(cid, language)
         bot.send_message(cid, responses['start'][language].format(uname, uid), parse_mode="Markdown")
+    else:
+        bot.send_message(cid, "Ya eres usuario hdp, por eso no te responde el puto bot xD")

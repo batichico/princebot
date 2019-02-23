@@ -1,0 +1,1292 @@
+{
+    "name": {
+        "26000042": "Electric Wizard",
+        "28000011": "The Log",
+        "28000010": "Graveyard",
+        "26000010": "Skeletons",
+        "26000000": "Knight",
+        "26000001": "Archers",
+        "28000009": "Poison",
+        "27000010": "Furnance",
+        "26000007": "Witch",
+        "28000001": "Arrows",
+        "26000002": "Goblins",
+        "26000020": "Giant Skeleton",
+        "26000005": "Minions",
+        "26000022": "Minion Horde",
+        "26000019": "Spear Goblins",
+        "26000021": "Hog Rider",
+        "26000015": "Baby Dragon",
+        "28000007": "Lightning",
+        "26000034": "Bowler",
+        "28000012": "Tornado",
+        "26000030": "Ice Spirit",
+        "26000039": "Megaminion",
+        "28000000": "Fireball",
+        "27000003": "Inferno Tower",
+        "27000008": "X-Bow",
+        "26000041": "Goblin Gang",
+        "28000003": "Rocket",
+        "26000026": "Princess",
+        "26000012": "Skeleton Army",
+        "26000036": "Battle Ram",
+        "26000032": "Miner",
+        "26000009": "Golem",
+        "27000007": "Elixir Collector",
+        "26000035": "Lumberjack",
+        "26000028": "Three Musketeers",
+        "28000016": "Heal",
+        "27000009": "Tombstone",
+        "26000029": "Lava Hound",
+        "26000003": "Giant",
+        "26000014": "Musketeer",
+        "26000008": "Barbarians",
+        "26000031": "Fire Spirits",
+        "28000008": "Zap",
+        "26000016": "Prince",
+        "26000045": "Executioner",
+        "26000037": "Inferno Dragon",
+        "26000043": "Elite Barbarians",
+        "26000023": "Ice Wizard",
+        "27000002": "Mortar",
+        "26000018": "Mini P.E.K.K.A",
+        "26000024": "Royal Giant",
+        "26000006": "Balloon",
+        "26000046": "Bandit",
+        "26000040": "Dart Goblin",
+        "28000002": "Rage",
+        "28000006": "Mirror",
+        "26000027": "Dark Prince",
+        "26000038": "Ice Golem",
+        "26000017": "Wizard",
+        "28000013": "Clone",
+        "26000025": "Guards",
+        "26000033": "Sparky",
+        "27000004": "Bomb Tower",
+        "27000000": "Cannon",
+        "26000013": "Bomber",
+        "28000004": "Goblin Barrel",
+        "27000005": "Barbarian Hut",
+        "26000011": "Valkyrie",
+        "28000005": "Freeze",
+        "26000004": "P.E.K.K.A",
+        "27000006": "Tesla",
+        "27000001": "Goblin Hut",
+        "26000048": "Night Witch",
+        "26000049": "Bats",
+        "26000055": "Mega Knight",
+        "26000054": "Cannon Cart",
+        "26000057": "Flying Machine",
+        "26000056": "Skeleton Barrel",
+        "26000050": "Royal Ghost",
+        "26000044": "Hunter",
+        "26000052": "Zappies"
+    },
+    "id": {
+        "Electric Wizard": {
+            "scid": "26000042",
+            "id": 43,
+            "elixir":4,
+            "img":"mazos/moldes/todas/magoelectrico.png",
+            "tags":[
+              "ewiz",
+              "electricwizard",
+              "magoelectrico",
+              "mago electrico",
+              "mago eléctrico",
+              "mago eléctrico"
+            ]
+        },
+        "The Log": {
+            "scid": "28000011",
+            "id": 89,
+            "elixir":2,
+            "img":"mazos/moldes/todas/tronco.png",
+            "tags":[
+              "el tronco",
+              "eltronco",
+              "tronco",
+              "tronquete",
+              "tronquito",
+              "log",
+              "thelog",
+              "the log"
+            ]
+        },
+        "Graveyard": {
+            "scid": "28000010",
+            "id": 88,
+            "elixir":5,
+            "img":"mazos/moldes/todas/cementerio.png",
+            "tags":[
+              "el cementerio",
+              "cementerio",
+              "graveyard"
+            ]
+        },
+        "Skeletons": {
+            "scid": "26000010",
+            "id": 11,
+            "elixir": 1,
+            "img":"mazos/moldes/todas/esqueletos.png",
+            "tags":[
+              "larrys",
+              "skeletons",
+              "esqueletos"
+            ]
+        },
+        "Knight": {
+            "scid": "26000000",
+            "id": 1,
+            "elixir":3,
+            "img":"mazos/moldes/todas/caballero.png",
+            "tags":[
+               "caballero",
+               "cabalero",
+               "knight",
+               "knigt"
+            ]
+        },
+        "Archers": {
+            "scid": "26000001",
+            "id": 2,
+            "elixir":3,
+            "img":"mazos/moldes/todas/arqueras.png",
+            "tags":[
+               "arqueras",
+               "arkeras",
+               "arceras",
+               "arqeras",
+               "archers"
+            ]
+        },
+        "Poison": {
+            "scid": "28000009",
+            "id": 87,
+            "elixir":4,
+            "img":"mazos/moldes/todas/veneno.png",
+            "tags":[
+              "veneno",
+              "beneno",
+              "potion",
+              "poison"
+            ]
+        },
+        "Furnance": {
+            "scid": "27000010",
+            "id": 74,
+            "elixir":4,
+            "img":"mazos/moldes/todas/horno.png",
+            "tags":[
+              "horno",
+              "hornete",
+              "hornillo",
+              "furnance"
+            ]
+        },
+        "Witch": {
+            "scid": "26000007",
+            "id": 8,
+            "elixir":4,
+            "img":"mazos/moldes/todas/bruja.png",
+            "tags":[
+              "bruja",
+              "burxa",
+              "witch",
+              "wich"
+            ]
+        },
+        "Arrows": {
+            "scid": "28000001",
+            "id": 79,
+            "elixir":3,
+            "img":"mazos/moldes/todas/flechas.png",
+            "tags":[
+               "flechas",
+               "fletxas",
+               "arrows",
+               "flexas"
+            ]
+        },
+        "Goblins": {
+            "scid": "26000002",
+            "id": 3,
+            "elixir":2,
+            "img":"mazos/moldes/todas/duendes.png",
+            "tags":[
+               "duendes",
+               "navajeros",
+               "gitanos",
+               "duendes con navaja",
+               "duendesconnavaja",
+               "duendesconavaja",
+               "duendes a cuchillo",
+               "duendesacuchillo",
+               "duendescuchillo",
+               "duendes cuchillo",
+               "gobs",
+               "goblins"
+            ]
+        },
+        "Giant Skeleton": {
+            "scid": "26000020",
+            "id": 21,
+            "elixir":6,
+            "img":"mazos/moldes/todas/giganteesqueletico.png",
+            "tags":[
+              "esqueleto",
+              "esqueletogigante",
+              "esqueleto gigante",
+              "esqueleto bomba",
+              "bombaesqueleto",
+              "bomba esqueleto",
+              "esqueletobomba",
+              "gigante esqueletico",
+              "giganteesqueletico",
+              "gigantesqueletico"
+            ]
+        },
+        "Minions": {
+            "scid": "26000005",
+            "id": 6,
+            "elixir":3,
+            "img":"mazos/moldes/todas/esbirros.png",
+            "tags":[
+               "esbirros",
+               "esbirrostres",
+               "esbirros de 3",
+               "esbirros de tres",
+               "esbirrosdetres",
+               "esbirrosde3",
+               "minionsthree",
+               "minions3",
+               "minions of 3",
+               "minionsof3",
+               "minions of three",
+               "minionsofthree"
+            ]
+        },
+        "Minion Horde": {
+            "scid": "26000022",
+            "id": 23,
+            "elixir":5,
+            "img":"mazos/moldes/todas/hordadeesbirros.png",
+            "tags":[
+              "minion horde",
+              "minionhorde",
+              "horda de esbirros",
+              "hordadeesbirros",
+              "hordadesbirros",
+              "hordaesbirros",
+              "horda esbirros",
+              "esbirros 5",
+              "esbirros de 5",
+              "esbirrosde5",
+              "esbirros5"
+            ]
+        },
+        "Spear Goblins": {
+            "scid": "26000019",
+            "id": 20,
+            "elixir":2,
+            "img":"mazos/moldes/todas/duendeslanceros.png",
+            "tags":[
+               "duendes con lanza",
+               "duendesconlanza",
+               "duendes lanceros",
+               "duendeslanceros",
+               "lanceros",
+               "speargoblins",
+               "spear goblins",
+               "speargobs",
+               "spear gobs"
+            ]
+        },
+        "Hog Rider": {
+            "scid": "26000021",
+            "id": 22,
+            "elixir":4,
+            "img":"mazos/moldes/todas/hogrider.png",
+            "tags":[
+              "monta",
+              "montapuercos",
+              "montapuerco",
+              "hog",
+              "hogrider",
+              "hog rider",
+              "monta puerco",
+              "monta puercos",
+              "cerdo",
+              "puerco",
+              "elcerdo",
+              "el cerdo",
+              "cerdito"
+            ]
+        },
+        "Baby Dragon": {
+            "scid": "26000015",
+            "id": 16,
+            "elixir":4,
+            "img":"mazos/moldes/todas/babydragon.png",
+            "tags":[
+              "bbdragon",
+              "babydragon",
+              "babidragon",
+              "bebedragon",
+              "baby dragon",
+              "babi dragon",
+              "bebe dragon",
+              "dragon bebe",
+              "bebé dragón",
+              "bebe dragón",
+              "bebédragón",
+              "bebédragon"
+            ]
+        },
+        "Lightning": {
+            "scid": "28000007",
+            "id": 85,
+            "elixir":6,
+            "img":"mazos/moldes/todas/rayo.png",
+            "tags":[
+              "lightning",
+              "ligtining",
+              "lightening",
+              "rayo",
+              "raio",
+              "trueno"
+            ]
+        },
+        "Bowler": {
+            "scid": "26000034",
+            "id": 35,
+            "elixir":5,
+            "img":"mazos/moldes/todas/lanzarrocas.png",
+            "tags":[
+              "bolero",
+              "lanza rocas",
+              "lanzarocas",
+              "lanzarrocas",
+              "bowler"
+            ]
+        },
+        "Tornado": {
+            "scid": "28000012",
+            "id": 90,
+            "elixir":3,
+            "img":"mazos/moldes/todas/tornado.png",
+            "tags":[
+              "tornado",
+              "tornad"
+            ]
+        },
+        "Ice Spirit": {
+            "scid": "26000030",
+            "id": 31,
+            "elixir": 1,
+            "img":"mazos/moldes/todas/espiritudehielo.png",
+            "tags":[
+               "bolita",
+               "bolitadehielo",
+               "bolita de hielo",
+               "bola de hielo",
+               "espiritu",
+               "espiritudehielo",
+               "espiritu de hielo",
+               "ice spirit",
+               "icespirit",
+               "ie"
+            ]
+        },
+        "Megaminion": {
+            "scid": "26000039",
+            "id": 40,
+            "elixir":3,
+            "img":"mazos/moldes/todas/megaesbirro.png",
+            "tags":[
+              "megaminion",
+              "mega minion",
+              "mega esbirro",
+              "megaesbirro"
+            ]
+        },
+        "Mega Knight": {
+            "scid": "26000055",
+            "id": 56,
+            "elixir":7,
+            "img":"mazos/moldes/todas/megacaballero.png",
+            "tags":[
+              "gorila",
+              "mk",
+              "megaknight",
+              "mega knight",
+              "mega king",
+              "mega knit",
+              "megaking",
+              "megaknit",
+              "megacaballero",
+              "mega caballero",
+              "mc"
+            ]
+        },
+        "Cannon Cart": {
+            "scid": "26000054",
+            "id": 55,
+            "elixir":5,
+            "img":"mazos/moldes/todas/cañonconruedas.png",
+            "tags":[
+              "cañon con ruedas",
+              "cañonconruedas",
+              "cañón con ruedas",
+              "cañónconruedas",
+              "canon con ruedas",
+              "canonconruedas",
+              "cannoncart",
+              "cannon cart"
+            ]
+        },
+        "Fireball": {
+            "scid": "28000000",
+            "id": 78,
+            "elixir":4,
+            "img":"mazos/moldes/todas/boladefuego.png",
+            "tags":[
+              "boladefuego",
+              "bola de fuego",
+              "bolafuego",
+              "bola fuego",
+              "bola",
+              "fireball"
+            ]
+        },
+        "Inferno Tower": {
+            "scid": "27000003",
+            "id": 67,
+            "elixir":5,
+            "img":"mazos/moldes/todas/infernotower.png",
+            "tags":[
+              "inferno tower",
+              "infernotower",
+              "torreinfierno",
+              "torre infierno"
+            ]
+        },
+        "X-Bow": {
+            "scid": "27000008",
+            "id": 72,
+            "elixir":6,
+            "img":"mazos/moldes/todas/ballesta.png",
+            "tags":[
+              "xbow",
+              "x-bow",
+              "ballesta",
+              "bayesta"
+            ]
+        },
+        "Goblin Gang": {
+            "scid": "26000041",
+            "id": 42,
+            "elixir":3,
+            "img":"mazos/moldes/todas/pandilla.png",
+            "tags":[
+               "pandilla",
+               "pandilladeduendes",
+               "pandilla de duendes",
+               "gob gang",
+               "gobgang",
+               "goblingang",
+               "goblin gang"
+            ]
+        },
+        "Rocket": {
+            "scid": "28000003",
+            "id": 81,
+            "elixir":6,
+            "img":"mazos/moldes/todas/cohete.png",
+            "tags":[
+              "rocket",
+              "roket",
+              "roquet",
+              "cohete",
+              "coete",
+              "cobete"
+            ]
+        },
+        "Princess": {
+            "scid": "26000026",
+            "id": 27,
+            "elixir": 3,
+            "img":"mazos/moldes/todas/princess.png",
+            "tags":[
+               "princess",
+               "princesa",
+               "princes"
+            ]
+        },
+        "Skeleton Army": {
+            "scid": "26000012",
+            "id": 13,
+            "elixir":3,
+            "img":"mazos/moldes/todas/ejercitoesqueletos.png",
+            "tags":[
+              "ejércitodesqueletos",
+              "ejercitodesqueletos",
+              "ejércitoesqueletos",
+              "ejércitoesqueletico",
+              "ejercitoesquelético",
+              "ejércitoesquelético",
+              "ejercitodesqueletos",
+              "ejercitoesqueletos",
+              "ejercitoesqueletico",
+              "ejercito de esqueletos",
+              "ejército de esqueletos",
+              "ejército esqueletos",
+              "ejercito esqueletos",
+              "ejército esquelético",
+              "ejército esqueletico",
+              "ejercito esquelético"
+            ]
+        },
+        "Battle Ram": {
+            "scid": "26000036",
+            "id": 37,
+            "elixir":4,
+            "img":"mazos/moldes/todas/ariete.png",
+            "tags":[
+              "ariete",
+              "ariete de batalla",
+              "arietedebatalla",
+              "battle ram",
+              "battleram",
+              "ram"
+            ]
+        },
+        "Miner": {
+            "scid": "26000032",
+            "id": 33,
+            "elixir":3,
+            "img":"mazos/moldes/todas/minero.png",
+            "tags":[
+              "minero",
+              "miner",
+              "bichodepaxi",
+              "palero"
+            ]
+        },
+        "Golem": {
+            "scid": "26000009",
+            "id": 10,
+            "elixir":8,
+            "img":"mazos/moldes/todas/golem.png",
+            "tags":[
+              "golem",
+              "golemdepiedra",
+              "golem de piedra"
+            ]
+        },
+        "Elixir Collector": {
+            "scid": "27000007",
+            "id": 71,
+            "elixir": 6,
+            "img":"mazos/moldes/todas/recolector.png",
+            "tags":[
+              "recolector",
+              "elixir collector",
+              "collector elixir",
+              "elixircollector",
+              "collectorelixir",
+              "recolectordelixir",
+              "recolector de elixir"
+            ]
+        },
+        "Lumberjack": {
+            "scid": "26000035",
+            "id": 36,
+            "elixir": 4,
+            "img":"mazos/moldes/todas/lenador.png",
+            "tags":[
+              "lumberjack",
+              "leñador",
+              "pelatroncos",
+              "cortador",
+              "lenador"
+            ]
+        },
+        "Three Musketeers": {
+            "scid": "26000028",
+            "id": 29,
+            "elixir":9,
+            "img":"mazos/moldes/todas/trio.png",
+            "tags":[
+              "three musketeers",
+              "threemusketeers",
+              "threemuskies",
+              "trio",
+              "trio de mosqueteras",
+              "trío de mosqueteras",
+              "tríodemosqueteras",
+              "las mosqueperras",
+              "las mosqueteras",
+              "mosqueperras",
+              "mosquis",
+              "muskies",
+              "triodemosqueteras",
+              "triomosqueteras",
+              "trío mosqueteras",
+              "triple mosquetera",
+              "tripelmosquetera",
+              "trío de mosqueperras"
+            ]
+        },
+        "Heal": {
+            "scid": "28000016",
+            "id": 94,
+            "elixir": 3,
+            "img": "mazos/moldes/todas/heal.png",
+            "tags":[
+              "curación",
+              "curacion",
+              "heal"
+            ]
+        },
+        "Tombstone": {
+            "scid": "27000009",
+            "id": 73,
+            "elixir":3,
+            "img":"mazos/moldes/todas/lapida.png",
+            "tags":[
+              "tombstone",
+              "lapida",
+              "lápida"
+            ]
+        },
+        "Lava Hound": {
+            "scid": "26000029",
+            "id": 30,
+            "elixir":7,
+            "img":"mazos/moldes/todas/saueso.png",
+            "tags":[
+              "Lava Hound",
+              "LavaHound",
+              "saueso de lava",
+              "sauesodelava",
+              "sagueso de lava",
+              "saguesodelava",
+              "sahueso de lava",
+              "sahuesodedlava"
+            ]
+
+        },
+        "Giant": {
+            "scid": "26000003",
+            "id": 4,
+            "elixir":5,
+            "img":"mazos/moldes/todas/gigante.png",
+            "tags":[
+              "gigante",
+              "giant"
+            ]
+        },
+        "Musketeer": {
+            "scid": "26000014",
+            "id": 15,
+            "elixir":4,
+            "img":"mazos/moldes/todas/mosquetera.png",
+            "tags":[
+              "Musketeer",
+              "Musky",
+              "mosquetera",
+              "mosqueperra",
+              "mosketera"
+            ]
+        },
+        "Barbarians": {
+            "scid": "26000008",
+            "id": 9,
+            "elixir":5,
+            "img":"mazos/moldes/todas/barbaros.png",
+            "tags":[
+              "barbarians",
+              "barbaros",
+              "bárbaros"
+            ]
+        },
+        "Fire Spirits": {
+            "scid": "26000031",
+            "id": 32,
+            "elixir":2,
+            "img":"mazos/moldes/todas/espiritusdefuego.png",
+            "tags":[
+               "magdalenas",
+               "espiritusdefuego",
+               "espiritus de fuego",
+               "espiritudefuego",
+               "espiritu de fuego",
+               "bolitas de fuego",
+               "bolitasdefuego",
+               "fire spirits",
+               "firespirits",
+               "fireespirits",
+               "fe"
+             ]
+        },
+        "Zap": {
+            "scid": "28000008",
+            "id": 86,
+            "elixir":2,
+            "img":"mazos/moldes/todas/zap.png",
+            "tags":[
+               "zap",
+               "descarga"
+            ]
+        },
+        "Prince": {
+            "scid": "26000016",
+            "id": 17,
+            "elixir":5,
+            "img":"mazos/moldes/todas/principe.png",
+            "tags":[
+              "prince",
+              "principe",
+              "príncipe"
+            ]
+        },
+        "Executioner": {
+            "scid": "26000045",
+            "id": 46,
+            "leixir":5,
+            "img":"mazos/moldes/todas/verdugo.png",
+            "tags":[
+              "executioner",
+              "verdugo",
+              "berdugo"
+            ]
+        },
+        "Inferno Dragon": {
+            "scid": "26000037",
+            "id": 38,
+            "elixir":4,
+            "img":"mazos/moldes/todas/dragoninfernal.png",
+            "tags":[
+              "dragón infernal",
+              "dragon infernal",
+              "dragóninfernal",
+              "dragoninfernal",
+              "infernal drake",
+              "drake infernal",
+              "drakeinfernal"
+            ]
+        },
+        "Elite Barbarians": {
+            "scid": "26000043",
+            "id": 44,
+            "elixir":6,
+            "img":"mazos/moldes/todas/elites.png",
+            "tags":[
+              "elites",
+              "élites",
+              "barbaros de elite",
+              "bárbaros de elite",
+              "bárbaros de élite",
+              "barbaros de élite",
+              "barbarosdeelite",
+              "bárbarosdeelite",
+              "bárbarosdeélite",
+              "barbarosdeélite",
+              "barbaroselite",
+              "bárbaroselite",
+              "bárbarosélite",
+              "barbarosélite",
+              "Elite Barbarians",
+              "EliteBarbarians",
+              "ebarbs"
+            ]
+        },
+        "Ice Wizard": {
+            "scid": "26000023",
+            "id": 24,
+            "elixir":3,
+            "img":"mazos/moldes/todas/magodehielo.png",
+            "tags":[
+              "icewizard",
+              "icewiz",
+              "ice wizard",
+              "magodehielo",
+              "mago de hielo"
+            ]
+        },
+        "Mortar": {
+            "scid": "27000002",
+            "id": 66,
+            "elixir":4,
+            "img":"mazos/moldes/todas/mortero.png",
+            "tags":[
+              "morterik0",
+              "mortero",
+              "mortar",
+              "mortair"
+            ]
+        },
+        "Mini P.E.K.K.A": {
+            "scid": "26000018",
+            "id": 19,
+            "elixir":4,
+            "img":"mazos/moldes/todas/minipekka.png",
+            "tags":[
+              "mini pekka",
+              "minipekka",
+              "Mini P.E.K.K.A",
+              "MiniP.E.K.K.A"
+            ]
+        },
+        "Royal Giant": {
+            "scid": "26000024",
+            "id": 25,
+            "elixir":6,
+            "img":"mazos/moldes/todas/noble.png",
+            "tags":[
+              "royal giant",
+              "royale giant",
+              "royalgiant",
+              "royalegiant",
+              "gigantenoble",
+              "gigante noble",
+              "noble"
+            ]
+        },
+        "Balloon": {
+            "scid": "26000006",
+            "id": 7,
+            "elixir":5,
+            "img":"mazos/moldes/todas/globo.png",
+            "tags":[
+              "globo",
+              "ballon",
+              "globete"
+            ]
+        },
+        "Bandit": {
+            "scid": "26000046",
+            "id": 47,
+            "elixir":3,
+            "img":"mazos/moldes/todas/bandida.png",
+            "tags":[
+              "bandida",
+              "bandit"
+            ]
+        },
+        "Night Witch": {
+            "scid": "26000048",
+            "id": 49,
+            "elixir":4,
+            "img":"/home/princebot/mazos/moldes/todas/bruja.png",
+            "tags":[
+              "nightwitch",
+              "night witch",
+              "nwitch",
+              "bruja nocturna",
+              "brujanocturna",
+              "bruja negra"
+            ]
+        },
+        "Bats": {
+            "scid": "26000049",
+            "id": 50,
+            "elixir":2,
+            "img":"mazos/moldes/todas/bats.png",
+            "tags":[
+              "bats",
+              "murcielagos",
+              "murciélagos",
+              "batis"
+             ]
+        },
+        "Dart Goblin": {
+            "scid": "26000040",
+            "id": 41,
+            "elixir":3,
+            "img":"mazos/moldes/todas/duendelanzadardos.png",
+            "tags":[
+              "dart goblin",
+              "dartgoblin",
+              "duendelanzadardos",
+              "duende lanzadardos"
+            ]
+        },
+        "Rage": {
+            "scid": "28000002",
+            "id": 80,
+            "elixir":3,
+            "img":"mazos/moldes/todas/rabia.png",
+            "tags":[
+              "rabia",
+              "ravia",
+              "rage"
+            ]
+        },
+        "Mirror": {
+            "scid": "28000006",
+            "id": 84,
+            "elixir":1,
+            "img":"mazos/moldes/todas/espejo.png",
+            "tags":[
+              "mirror",
+              "espejo"
+            ]
+        },
+        "Dark Prince": {
+            "scid": "26000027",
+            "id": 28,
+            "elixir":4,
+            "img":"mazos/moldes/todas/principeoscuro.png",
+            "tags":[
+              "dark prince",
+              "darkprince",
+              "dprince",
+              "principe oscuro",
+              "caballero negro",
+              "principeoscuro",
+              "caballeronegro"
+
+            ]
+        },
+        "Ice Golem": {
+            "scid": "26000038",
+            "id": 39,
+            "elixir":2,
+            "img":"mazos/moldes/todas/golemdehielo.png",
+            "tags":[
+              "ice golem",
+              "igolem",
+              "icegolem",
+              "golemdehielo",
+              "golemhelado",
+              "golem de hielo",
+              "golem helado"
+            ]
+        },
+        "Wizard": {
+            "scid": "26000017",
+            "id": 18,
+            "elixir":5,
+            "img":"mazos/moldes/todas/mago.png",
+            "tags":[
+              "mago",
+              "wizard",
+              "wiz"
+            ]
+        },
+        "Clone": {
+            "scid": "28000013",
+            "id": 91,
+            "elixir":2,
+            "img":"mazos/moldes/todas/clonacion.png",
+            "tags":[
+              "clone",
+              "clonación",
+              "clonacion"
+            ]
+        },
+        "Guards": {
+            "scid": "26000025",
+            "id": 26,
+            "elixir":3,
+            "img":"mazos/moldes/todas/guardias.png",
+            "tags":[
+              "guardas",
+              "guardias",
+              "guardianes",
+              "guards"
+            ]
+        },
+        "Sparky": {
+            "scid": "26000033",
+            "id": 34,
+            "elixir":6,
+            "img":"mazos/moldes/todas/chispitas.png",
+            "tags":[
+              "sparky",
+              "chispas",
+              "chispis",
+              "chispas",
+              "chispitas"
+            ]
+        },
+        "Bomb Tower": {
+            "scid": "27000004",
+            "id": 68,
+            "elixir":5,
+            "img":"mazos/moldes/todas/torrebombardera.png",
+            "tags":[
+              "torre bombardera",
+              "torrebombardera",
+              "bomb tower",
+              "bombtower"
+            ]
+        },
+        "Cannon": {
+            "scid": "27000000",
+            "id": 64,
+            "elixir":3,
+            "img":"mazos/moldes/todas/cañon.png",
+            "tags":[
+              "cannon",
+              "canon",
+              "cañon",
+              "cañón"
+            ]
+        },
+        "Bomber": {
+            "scid": "26000013",
+            "id": 14,
+            "elixir":3,
+            "img":"mazos/moldes/todas/bombardero.png",
+            "tags":[
+              "bomber",
+              "bombardero",
+              "esqueleto bombas"
+            ]
+        },
+        "Goblin Barrel": {
+            "scid": "28000004",
+            "id": 82,
+            "elixir":3,
+            "img":"mazos/moldes/todas/barrildeduendes.png",
+            "tags":[
+              "barril de duendes",
+              "barrildeduendes",
+              "goblin barrel"
+            ]
+        },
+        "Barbarian Hut": {
+            "scid": "27000005",
+            "id": 69,
+            "elixir":7,
+            "img":"mazos/moldes/todas/chozabarbaros.png",
+            "tags":[
+              "barbarian hut",
+              "barbarianhut",
+              "choza de barbaros",
+              "chozadebarbaros",
+              "choza de bárbaros",
+              "choza de bárbaros"
+            ]
+        },
+        "Valkyrie": {
+            "scid": "26000011",
+            "id": 12,
+            "elixir":4,
+            "img":"mazos/moldes/todas/valkiria.png",
+            "tags":[
+              "valkiria",
+              "valquiria",
+              "Valkyrie"
+            ]
+        },
+        "Freeze": {
+            "scid": "28000005",
+            "id": 83,
+            "elixir":4,
+            "img":"mazos/moldes/todas/congelar.png",
+            "tags":[
+              "hielo",
+              "congelar",
+              "freeze"
+            ]
+        },
+        "P.E.K.K.A": {
+            "scid": "26000004",
+            "id": 5,
+            "elixir":7,
+            "img":"mazos/moldes/todas/pekka.png",
+            "tags":[
+              "pekka",
+              "pekkador",
+              "P.E.K.K.A"
+            ]
+        },
+        "Tesla": {
+            "scid": "27000006",
+            "id": 70,
+            "elixir":4,
+            "img":"mazos/moldes/todas/tesla.png",
+            "tags":[
+              "tesla",
+              "torre tesla",
+              "torretesla"
+            ]
+        },
+        "Goblin Hut": {
+            "scid": "27000001",
+            "id": 65,
+            "elixir:":5,
+            "img":"mazos/moldes/todas/chozadeduendes.png",
+            "tags":[
+              "choza de duendes",
+              "chozadeduendes",
+              "choza duendes",
+              "chozaduendes",
+              "goblin hut",
+              "golbinhut"
+            ]
+        },
+        "Flying Machine": {
+            "scid": "26000057",
+            "id": 58,
+            "elixir":4,
+            "img":"mazos/moldes/todas/maquinavoladora.png",
+            "tags":[
+              "flying machine",
+              "flyingmachine",
+              "máquina voladora",
+              "máquinavoladora",
+              "maquina voladora",
+              "maquinavoladora"
+            ]
+
+        },
+        "Skeleton Barrel": {
+            "scid": "26000056",
+            "id": 57,
+            "elixir":3,
+            "img":"mazos/moldes/todas/skeletonbarrel.png",
+            "tags":[
+              "skeleton barrel",
+              "skeletonbarrel",
+              "barril de esqueletos",
+              "barrildeesqueletos",
+              "barril esqueletico",
+              "barril esquelético",
+              "barril esqueletico",
+              "barril esquelético"
+            ]
+        },
+        "Royal Ghost": {
+            "scid": "26000050",
+            "id": 51,
+            "elixir":3,
+            "img":"mazos/moldes/todas/RoyalGhost.png",
+            "tags":[
+              "royal ghost",
+              "royalghost",
+              "rghost",
+              "fantasma real",
+              "fantasmareal",
+              "fantasma"
+            ]
+        },
+        "Hunter": {
+            "scid": "26000044",
+            "id": 45,
+            "elixir":4,
+            "img":"mazos/moldes/todas/hunter.png",
+            "tags":[
+              "cazador",
+              "hunter",
+              "casador"
+            ]
+        },
+        "Zappies": {
+            "scid": "26000052",
+            "id": 53,
+            "elixir":4,
+            "img":"mazos/moldes/todas/zappies.png",
+            "tags":[
+              "zappies",
+              "zapis",
+              "zappys",
+              "electrocutadores",
+              "zappis"
+            ]
+        },
+        "Magic archer": {
+            "scid": "26000062",
+            "id": 53,
+            "elixir":4,
+            "img":"mazos/moldes/todas/Arqueromagico.png",
+            "tags":[
+              "magic archer",
+              "magicarcher",
+              "arquero mágico",
+              "arquero magico",
+              "arqueromágico",
+              "arqueromagico",
+              "tiraflechas"
+            ]
+        },
+        "Barb barrel": {
+            "scid": "28000015",
+            "id": 53,
+            "elixir":3,
+            "img":"mazos/moldes/todas/BarbBarrel.png",
+            "tags":[
+              "barb barrel",
+              "barbbarrel",
+              "barril de bárbaro",
+              "barrildebárbaro",
+              "barrildebarbaro",
+              "barril de barbaro"
+            ]
+        },
+        "Rascalls": {
+            "scid": "26000053",
+            "id": 53,
+            "elixir":3,
+            "img":"mazos/moldes/todas/Rascalls.png",
+            "tags":[
+              "rascalls",
+              "pillos",
+              "piyos"
+            ]
+        },
+        "Snowball": {
+          "scid": "28000017",
+          "id":55,
+          "elixir":2,
+          "img":"mazos/moldes/todas/SnowBall.png",
+          "tags":[
+            "boladenieve",
+            "bola de nieve",
+            "snowball",
+            "snow ball",
+            "snowbal",
+            "bolanieve",
+            "bola nieve"
+          ]
+        },
+          "RoyalHogs":{
+            "scid": "26000059",
+            "id":56,
+            "elixir":5,
+            "img":"mazos/moldes/todas/RoyalHogs.png",
+            "tags":[
+              "royal hogs",
+              "royal hog",
+              "royal pigs",
+              "royalpigs",
+              "royale hogs",
+              "royalep pigs",
+              "cerdos reales",
+              "cerdosreales",
+              "puercos reales",
+              "puercosreales",
+              "cochinos reales",
+              "cochinosreales"
+            ]
+          },
+            "RoyalRecruits":{
+              "scid":"26000047",
+              "id":57,
+              "elixir":8,
+              "img":"mazos/moldes/todas/RoyalRecruits.png",
+              "tags":[
+                "royal requits",
+                "royalrequits",
+                "royal recruits",
+                "royalrecruits",
+                "reclutas reales",
+                "recultasreales"
+              ]
+            }
+    }
+}

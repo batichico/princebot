@@ -1,0 +1,178 @@
+[
+    {
+        "ofrece": [
+            "tronco",
+            " cementerio",
+            " mk"
+        ],
+        "pide": "ewiz",
+        "idCreador": 239822769,
+        "ofertas_gente": [
+            {
+                "idUsuario": 239822769,
+                "cartas": [
+                    "tronco"
+                ],
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+            },
+            {
+                "idUsuario": 378633559,
+                "cartas": [
+                    " cementerio"
+                ],
+                "nombreUsuario": "Wila"
+            },
+            {
+                "idUsuario": 13952220,
+                "cartas": [
+                    " mk"
+                ],
+                "nombreUsuario": "Edu"
+            }
+        ],
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001296391668
+        ],
+        "idMessage": 10992,
+        "img": 31231223123
+    },
+    {
+        "ofrece": [],
+        "pide": "mago,bruja",
+        "idCreador": 378633559,
+        "ofertas_gente": [],
+        "nombreCreador": "Wila",
+        "idGrupo": [
+            -1001296391668
+        ],
+        "idMessage": 0,
+        "img": 31231223123
+    },
+    {
+        "ofrece": [
+            "pikachu",
+            "shinosuke",
+            "naruto"
+        ],
+        "pide": "as de picas",
+        "idCreador": 235017306,
+        "ofertas_gente": [
+            {
+                "idUsuario": 13952220,
+                "cartas": [
+                    "pikachu"
+                ],
+                "nombreUsuario": "Edu"
+            },
+            {
+                "idUsuario": 235017306,
+                "cartas": [
+                    "shinosuke"
+                ],
+                "nombreUsuario": "LFX"
+            }
+        ],
+        "nombreCreador": "LFX",
+        "idGrupo": [
+            -1001296391668
+        ],
+        "idMessage": 11037,
+        "img": 31231223123
+    },
+    {
+        "ofrece": [
+            "jaimito",
+            "ingles",
+            "racista",
+            "machista"
+        ],
+        "pide": "chistaco de mondador",
+        "idCreador": 239822769,
+        "ofertas_gente": [
+            {
+                "idUsuario": 235017306,
+                "cartas": [
+                    "jaimito"
+                ],
+                "nombreUsuario": "LFX"
+            }
+        ],
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001296391668
+        ],
+        "idMessage": 11045,
+        "img": 31231223123
+    },
+    {
+        "ofrece": [
+            "racista",
+            "hembrista",
+            "machista",
+            "clash",
+            "jaimito",
+            "original"
+        ],
+        "pide": "chistaco mondador",
+        "idCreador": 239822769,
+        "ofertas_gente": [
+            {
+                "idUsuario": 239822769,
+                "cartas": [
+                    "original"
+                ],
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+            },
+            {
+                "idUsuario": 235017306,
+                "cartas": [
+                    "clash"
+                ],
+                "nombreUsuario": "LFX"
+            },
+            {
+                "idUsuario": 7502547,
+                "cartas": [
+                    "hembrista"
+                ],
+                "nombreUsuario": "El Wokenaso"
+            },
+            {
+                "idUsuario": 201876961,
+                "cartas": [
+                    "hembrista"
+                ],
+                "nombreUsuario": "Ratas"
+            },
+            {
+                "idUsuario": 3430241,
+                "cartas": [
+                    "jaimito"
+                ],
+                "nombreUsuario": "\u00d3scar"
+            }
+        ],
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001296391668
+        ],
+        "idMessage": 11052,
+        "img": 31231223123
+    },
+    {
+        "ofrece": [
+            "tronco",
+            "saueso"
+        ],
+        "pide": "cementerio",
+        "idCreador": 239822769,
+        "ofertas_gente": [],
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot",
+        "idGrupo": [
+            -1001296391668
+        ],
+        "idMessage": 11255,
+        "img": 31231223123
+    }
+]

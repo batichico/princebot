@@ -1,0 +1,15 @@
+{
+    "token":"",
+    "crtoken":"",
+    "ocrtoken":"",
+    "userDB":"",
+    "userPassDB":"",
+    "hostDB":"localhost",
+    "database":"",
+    "admins":[
+        
+    ],
+    "beta":[
+        
+    ]
+}

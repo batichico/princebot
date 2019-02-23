@@ -1,0 +1,80 @@
+[
+    {
+        "ofrece": [
+            "real",
+            "edu",
+            "rio"
+        ],
+        "img": 31231223123,
+        "pide": "gotkiller",
+        "idCreador": 239822769,
+        "idMessage": 42038,
+        "idGrupo": [
+            -1001094226778
+        ],
+        "ofertas_gente": [
+            {
+                "idUsuario": 63175002,
+                "cartas": [
+                    "rio"
+                ],
+                "nombreUsuario": "Rio"
+            },
+            {
+                "idUsuario": 239822769,
+                "cartas": [
+                    "edu",
+                    "real"
+                ],
+                "nombreUsuario": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+            },
+            {
+                "idUsuario": 428510635,
+                "cartas": [
+                    "real"
+                ],
+                "nombreUsuario": "Emperador ByDiegoJr\u26a1L40"
+            },
+            {
+                "idUsuario": 180791241,
+                "cartas": [
+                    "edu",
+                    "real"
+                ],
+                "nombreUsuario": "\u028d\u01ddq\u0279o\u026f"
+            },
+            {
+                "idUsuario": 154628112,
+                "cartas": [
+                    "rio",
+                    "edu",
+                    "real"
+                ],
+                "nombreUsuario": "LaLlamaSolidaria"
+            },
+            {
+                "idUsuario": 401395171,
+                "cartas": [
+                    "real",
+                    "edu"
+                ],
+                "nombreUsuario": "GotKiller"
+            },
+            {
+                "idUsuario": 464923224,
+                "cartas": [
+                    "real"
+                ],
+                "nombreUsuario": "MrRobotbcn"
+            },
+            {
+                "idUsuario": 292633884,
+                "cartas": [
+                    "edu"
+                ],
+                "nombreUsuario": "Karl"
+            }
+        ],
+        "nombreCreador": "\ud83e\udd87 Batichico \ud83e\udd87 @princebot"
+    }
+]
