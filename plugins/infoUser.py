@@ -5,7 +5,7 @@ def function_my_info(m):
     cid = m.chat.id
     idUser = m.from_user.id
     name = ""
-    lstPlayersInfo = getPlayerTag(idUser)
+    lstPlayersInfo = getPlayerInfo(idUser)
     accountsKeyBoard = types.InlineKeyboardMarkup()
     arrayButtonsAccounts = []
     if len(lstPlayersInfo)>0:
@@ -24,7 +24,7 @@ def callback_player_menu(call):
     idUser =  call.from_user.id
     accountsKeyBoard = types.InlineKeyboardMarkup()
     arrayButtonsAccounts = []
-    lstPlayersInfo = getPlayerTag(idUser)
+    lstPlayersInfo = getPlayerInfo(idUser)
     if len(lstPlayersInfo)>0:
         for playerInfo in lstPlayersInfo:
             arrayButtonsAccounts.append(types.InlineKeyboardButton(playerInfo[0],callback_data="playerInfo / "+playerInfo[0]+" / "+playerInfo[1]))
@@ -117,7 +117,7 @@ def callback_player_info_chests(call):
 
     bot.edit_message_text(messageText,cid,mid,reply_markup=playerMenuKeyboard , parse_mode='markdown'  )
 
-def getPlayerTag (idUser):
+def getPlayerInfo (idUser):
     playerTagDB = ""
     playerNameDB = ""
     playersInfoList = []
