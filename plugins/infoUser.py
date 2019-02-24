@@ -111,10 +111,8 @@ def callback_player_info_chests(call):
         giantStr = '    *' + responses['name_giant_chest'][lang(cid)] +'*: ' + str(giant)
         bestChestsStr = megaLightningStr + "\n" + magicalStr + "\n" + legendaryStr + "\n" +  epicgStr + "\n" +  giantStr
         messageText = name + ' ' + responses['name_chets'][lang(cid)] + ' 📦 :\n' + bestChestsStr + '\n    '+ responses['name_upcoming_chets'][lang(cid)] + ': ' + nextOnesStr
-
     else:
       messageText = responses['name_api_down'][lang(cid)]
-
     bot.edit_message_text(messageText,cid,mid,reply_markup=playerMenuKeyboard , parse_mode='markdown'  )
 
 def getPlayerInfo (idUser):
@@ -127,7 +125,6 @@ def getPlayerInfo (idUser):
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
     cursor = conn.cursor()
-
     sql = "SELECT  idCr,name FROM Player WHERE idTelegram = %s "
     cursor.execute(sql,(idUser))
 
