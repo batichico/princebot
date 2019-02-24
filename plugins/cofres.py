@@ -8,10 +8,9 @@ def function_chests(m):
     lstPlayersTags = getPlayerTag(idUser)
     nextOnesStr = ""
     bestChestsStr = ""
+    token = extra['crtoken']
     if len(lstPlayersTags)>0:
         for playerTag in lstPlayersTags:
-
-            token = extra['crtoken']
             url = 'http://api.royaleapi.com/player/' + playerTag
             r = requests.get(url, headers={'auth': token})
             if r.status_code is 200:
