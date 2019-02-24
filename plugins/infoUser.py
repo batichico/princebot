@@ -43,13 +43,13 @@ def callback_player_Info(call):
       idCr = callInfo.split(" / ")[2]
 
       playerMenuKeyboard = types.InlineKeyboardMarkup()
-      playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_info'][lang(cid)],  callback_data='info / '+nameCr+' / '+idCr ))
-      playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_chests'][lang(cid)],  callback_data='chests / '+nameCr+' / '+idCr ))
-      playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_war_level'][lang(cid)],  callback_data='warLevel / '+nameCr+' / '+idCr ))
+      playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_info'][lang(cid)],  callback_data='info / '+nameCr+' / '+idCr ),
+                        types.InlineKeyboardButton(responses['menu_player_name_chests'][lang(cid)],  callback_data='chests / '+nameCr+' / '+idCr ),
+                        types.InlineKeyboardButton(responses['menu_player_name_war_level'][lang(cid)],  callback_data='warLevel / '+nameCr+' / '+idCr ))
       playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_games_history'][lang(cid)],  callback_data='gamesHistory / '+nameCr+' / '+idCr ))
-      playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_clan'][lang(cid)],  callback_data='clan / '+nameCr+' / '+idCr ))
-      playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_decks'][lang(cid)],  callback_data='decks / '+nameCr+' / '+idCr ))
-      playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_return'][lang(cid)],  callback_data='playerMenu' ))
+      playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_clan'][lang(cid)],  callback_data='clan / '+nameCr+' / '+idCr ),
+                        types.InlineKeyboardButton(responses['menu_player_name_decks'][lang(cid)],  callback_data='decks / '+nameCr+' / '+idCr ),
+                        types.InlineKeyboardButton(responses['menu_player_name_return'][lang(cid)],  callback_data='playerMenu' ))
 
       messageText= responses['menu_player_message'][lang(cid)].format(nameCr)
       bot.edit_message_text(messageText,cid,mid,reply_markup=playerMenuKeyboard , parse_mode='markdown'  )
@@ -67,13 +67,13 @@ def callback_player_info_chests(call):
     name = ""
 
     playerMenuKeyboard = types.InlineKeyboardMarkup()
-    playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_info'][lang(cid)],  callback_data='info / '+nameCr+' / '+idCr ))
-    playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_chests'][lang(cid)],  callback_data='chests / '+nameCr+' / '+idCr ))
-    playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_war_level'][lang(cid)],  callback_data='warLevel / '+nameCr+' / '+idCr ))
+    playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_info'][lang(cid)],  callback_data='info / '+nameCr+' / '+idCr ),
+                    types.InlineKeyboardButton(responses['menu_player_name_chests'][lang(cid)],  callback_data='chests / '+nameCr+' / '+idCr ),
+                    types.InlineKeyboardButton(responses['menu_player_name_war_level'][lang(cid)],  callback_data='warLevel / '+nameCr+' / '+idCr ))
     playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_games_history'][lang(cid)],  callback_data='gamesHistory / '+nameCr+' / '+idCr ))
-    playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_clan'][lang(cid)],  callback_data='clan / '+nameCr+' / '+idCr ))
-    playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_decks'][lang(cid)],  callback_data='decks / '+nameCr+' / '+idCr ))
-    playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_return'][lang(cid)],  callback_data='return' ))
+    playerMenuKeyboard.add(types.InlineKeyboardButton(responses['menu_player_name_clan'][lang(cid)],  callback_data='clan / '+nameCr+' / '+idCr ),
+                    types.InlineKeyboardButton(responses['menu_player_name_decks'][lang(cid)],  callback_data='decks / '+nameCr+' / '+idCr ),
+                    types.InlineKeyboardButton(responses['menu_player_name_return'][lang(cid)],  callback_data='playerMenu' ))
 
     token = extra['crtoken']
     url = 'http://api.royaleapi.com/player/' + idCr + '/chests'
@@ -113,7 +113,7 @@ def callback_player_info_chests(call):
         messageText = name + ' ' + responses['name_chets'][lang(cid)] + ' 📦 :\n' + bestChestsStr + '\n    '+ responses['name_upcoming_chets'][lang(cid)] + ': ' + nextOnesStr
 
     else:
-      messageText = responses['name_api_down'][lang(cid)])
+      messageText = responses['name_api_down'][lang(cid)]
 
     bot.edit_message_text(messageText,cid,mid,reply_markup=playerMenuKeyboard , parse_mode='markdown'  )
 
