@@ -22,7 +22,8 @@
   "not_user": "You are not registered, use /start",
   "chests":{
     "es": "!cofres",
-    "en": "!chests"
+    "en": "!chests",
+    "en": "!kutxak"
   },
   "m_chests":{
     "es": "Súper mágico: 30\nMágico: 3",
@@ -80,8 +81,8 @@
   },
   "a_checking_tag":{
     "es":"Comprobando tag...",
-    "en":"Checking tag...:",
-    "eus":"Tag-a bilatzen...:"
+    "en":"Checking tag...",
+    "eus":"Tag-a bilatzen..."
   },
   "a_is_duplicated":{
     "es":"El tag: {} ya está registrado, introduce /registro para volver a intentar agregar una cuenta",
@@ -98,12 +99,12 @@
     "en":"Introduced tag not exist, try to do better. /registration",
     "eus":"Erregistro hau ez da existitzen, zahiatu berriz. /registroa"
   },
-  "acept":{
+  "btn_acept":{
     "es":"Aceptar",
     "en":"Acept",
     "eus":"Ados"
   },
-  "cancel":{
+  "btn_cancel":{
     "es":"Cancelar",
     "en":"Cancel",
     "eus":"Desados"
@@ -114,9 +115,118 @@
     "eus":"Erresgistratua zaude :)\nHorain bidali jokoaren argazkia zure kantua balioztatzeko, adibide bat bidaliko zaitut hobeto ulertzeko"
   },
   "a_validation_cancel":{
-    "es":"Cancelado, si quieres registrarte pulsa /registro",
-    "en":"Canceled, if you want to regist use /registration",
-    "eus":"Desonartuta, erregistratu nahi baduzu erabili /registroa"
+    "es":"Cancelado, si quieres registrarte, pulsa /registro",
+    "en":"Canceled, if you want to regist, use /registration",
+    "eus":"Desonartuta, erregistratu nahi baduzu, erabili /registroa"
+  },
+  "name_silver_chest":{
+    "es":"Plata",
+    "en":"Silver",
+    "eus":"Zilarra"
+  },
+  "name_gold_chest":{
+    "es":"Oro",
+    "en":"Gold",
+    "eus":"Urrea"
+  },
+  "name_giant_chest":{
+    "es":"Gigante",
+    "en":"Giant",
+    "eus":"Erraldoia"
+  },
+  "name_magical_chest":{
+    "es":"Mágico",
+    "en":"Magical",
+    "eus":"Magikoa"
+  },
+  "name_epic_chest":{
+    "es":"Épico",
+    "en":"Epic",
+    "eus":"Epikoa"
+  },
+  "name_mega_lightning_chest":{
+    "es":"Mega Rayo",
+    "en":"Mega Lighting",
+    "eus":"Mega Argiztapena"
+  },
+  "name_legendary_chest":{
+    "es":"Legendario",
+    "en":"Legendary",
+    "eus":"Legendarioa"
+  },
+  "name_chets":{
+    "es":"*Cofres*",
+    "en":"*Chests*",
+    "eus":"*Kutxak*"
+  },
+  "name_upcoming_chets":{
+    "es":"*Próximos cofres*",
+    "en":"*Upcoming chests*",
+    "eus":"*Hurrengo Kutxak*"
+  },
+  "name_good_chets":{
+    "es":"*Cofres rocosos*",
+    "en":"*Good chests*",
+    "eus":"*Kutxa onak*"
+  },
+  "a_not_registered":{
+    "es":"No estas registrado amig@\nUtiliza el comando /registro para registrarte",
+    "en":"Not registered\nUse /registration to register",
+    "eus":"Ez zaude erregistratuta\nErabili /registroa erregistratzeko"
+  },
+  "name_accounts":{
+    "es":"CUENTAS",
+    "en":"ACCOUNTS",
+    "eus":"KONTUAK"
+  },
+  "command_my_info":{
+    "es": "/yo",
+    "en": "/me",
+    "eus": "/nik"
+  },
+  "menu_player_message":{
+    "es": "*Jugador*: {}\nElige una de las siguientes opciones",
+    "en": "*Player*: {}\nChoose an option",
+    "eus": "*Jokalaria*: {}\nAukeratu aukeraren bat"
+  },
+  "menu_player_name_info":{
+    "es": "INFO",
+    "en": "INFO",
+    "eus": "INFO"
+  },
+  "menu_player_name_chests":{
+    "es": "COFRES",
+    "en": "CHESTS",
+    "eus": "KUTXAK"
+  },
+  "menu_player_name_war_level":{
+    "es": "NIVEL GUERRA",
+    "en": "WAR LEVEL",
+    "eus": "GERRA MAILA"
+  },
+  "menu_player_name_games_history":{
+    "es": "HISTORIAL DE PARTIDAS",
+    "en": "GAMES HISTORY",
+    "eus": "PARTIDA HISTORIALA"
+  },
+  "menu_player_name_clan":{
+    "es": "CLAN",
+    "en": "CLAN",
+    "eus": "KLANA"
+  },
+  "menu_player_name_decks":{
+    "es": "MAZOS",
+    "en": "DECKS",
+    "eus": "MAZOAK"
+  },
+  "menu_player_name_return":{
+    "es": "VOLVER",
+    "en": "RETURN",
+    "eus": "ITZULI"
+  },
+  "name_api_down":{
+    "es": "La API se ha caido",
+    "en": "API is down",
+    "eus": "API-a erori da"
   }
-
 }
