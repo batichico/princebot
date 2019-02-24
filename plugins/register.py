@@ -74,7 +74,7 @@ def callback_handler(call):
 
       msg=bot.edit_message_text(responses['a_validation_acept'][lang(cid)],cid,mid,reply_markup=None)
 
-      bot.send_photo( cid, open( '/home/PrinceAlfa/files/accountExample/accountExample.jpg', 'rb'))
+      bot.send_photo( cid, open( 'files/accountExample/accountExample.jpg', 'rb'))
 
       conn = pymysql.connect(user=extra['userDB'], password=extra['userPassDB'],
                                  host=extra['hostDB'],
@@ -109,9 +109,9 @@ def step_validation(m):
         fileID = m.photo[-1].file_id
         file_info = bot.get_file(fileID)
         downloaded_file = bot.download_file(file_info.file_path)
-        with open("/home/PrinceAlfa/files/newAccounts/newAccount.jpg", 'wb') as new_file:
+        with open("files/newAccounts/newAccount.jpg", 'wb') as new_file:
               new_file.write(downloaded_file)
-        path = "/home/PrinceAlfa/files/newAccounts/newAccount.jpg"
+        path = "files/newAccounts/newAccount.jpg"
 
         ocr_found = json.loads(ocr_space_file(path))
         lines = ocr_found['ParsedResults'][0]['TextOverlay']['Lines']
@@ -153,9 +153,9 @@ def user_image(m):
   fileID = m.reply_to_message.photo[-1].file_id
   file_info = bot.get_file(fileID)
   downloaded_file = bot.download_file(file_info.file_path)
-  with open("/home/PrinceAlfa/files/newAccounts/newAccount.jpg", 'wb') as new_file:
+  with open("files/newAccounts/newAccount.jpg", 'wb') as new_file:
         new_file.write(downloaded_file)
-  path = "/home/PrinceAlfa/files/newAccounts/newAccount.jpg"
+  path = "files/newAccounts/newAccount.jpg"
 
   ocr_found = json.loads(ocr_space_file(path))
   lines = ocr_found['ParsedResults'][0]['TextOverlay']['Lines']
