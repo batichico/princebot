@@ -107,20 +107,14 @@ def step_validation(m):
     else:
 
         fileID = m.photo[-1].file_id
-        print(m.photo)
         file_info = bot.get_file(fileID)
         downloaded_file = bot.download_file(file_info.file_path)
-        print(downloaded_file)
-        print("aqui")
         with open("/home/PrinceAlfa/files/newAccounts/newAccount.jpg", 'wb') as new_file:
               new_file.write(downloaded_file)
         path = "/home/PrinceAlfa/files/newAccounts/newAccount.jpg"
-        print("ENTRO")
 
         ocr_found = json.loads(ocr_space_file(path))
-        print(ocr_found)
         lines = ocr_found['ParsedResults'][0]['TextOverlay']['Lines']
-        print(ocr_found)
 
         texto_completo = ""
         crTag=""
@@ -150,27 +144,21 @@ def step_validation(m):
         else:
 
             bot.send_message(cid,'La imagen que envías es incorrecta, prueba a sacarla igual que el ejemplo :)')
-            print("no validado")
+
 
 @bot.message_handler(commands=['ocr'], func=lambda m: m.reply_to_message and m.reply_to_message.photo)
 def user_image(m):
   cid = m.chat.id
 
   fileID = m.reply_to_message.photo[-1].file_id
-  print(m.reply_to_message.photo)
   file_info = bot.get_file(fileID)
   downloaded_file = bot.download_file(file_info.file_path)
-  print(downloaded_file)
-  print("aqui")
   with open("/home/PrinceAlfa/files/newAccounts/newAccount.jpg", 'wb') as new_file:
         new_file.write(downloaded_file)
   path = "/home/PrinceAlfa/files/newAccounts/newAccount.jpg"
-  print("ENTRO")
 
   ocr_found = json.loads(ocr_space_file(path))
-  print(ocr_found)
   lines = ocr_found['ParsedResults'][0]['TextOverlay']['Lines']
-  print(ocr_found)
 
   texto_completo = ""
   crTag = ""
@@ -197,7 +185,7 @@ def user_image(m):
 
 def ocr_space_file(filename, overlay=True, api_key= extra['ocrtoken'], language='spa'):
 
-    print(extra['ocrtoken'])
+
     payload = {'isOverlayRequired': overlay,
                'apikey':  extra['ocrtoken'],
                'language': 'spa',
@@ -209,7 +197,6 @@ def ocr_space_file(filename, overlay=True, api_key= extra['ocrtoken'], language=
                           )
     return r.content.decode()
 def tagValidation(tag,idUser):
-    print("entramos a validacion")
     conn = pymysql.connect(user=extra['userDB'], password=extra['userPassDB'],
                              host=extra['hostDB'],
                              database=extra['database'],
@@ -228,9 +215,7 @@ def tagValidation(tag,idUser):
     for i in range(len(arrayBDTag)):
         if arrayBDTag[i] == arrayPhotoTag[i]:
             count= count+1
-            print(str(arrayBDTag[i]) + " " + str(arrayPhotoTag[i]))
     porcentaje = len(arrayBDTag) - count
-    print(str(porcentaje) + " " + str(len(arrayBDTag)))
     if porcentaje < len(arrayBDTag)/2 :
         sql = "UPDATE Player SET validado=1 WHERE idTelegram= %s AND idCr = %s"
         cursor.execute(sql,(idUser,bdTag))
@@ -240,7 +225,6 @@ def tagValidation(tag,idUser):
         conn.close()
     else:
         respuesta = "no validado"
-    print(respuesta)
     return respuesta
 
 ####################Functions registro #############################
@@ -248,11 +232,11 @@ def tagValidation(tag,idUser):
 def isDuplicateInDB(tag):
     registrado = False
     playerTagDB = ""
-    conn = pymysql.connect(user='root', password='seg01tz!',
-                                 host='localhost',
-                                 database='PruebasPrinceBeta',
-                                 charset='utf8mb4',
-                                 cursorclass=pymysql.cursors.DictCursor)
+    conn = pymysql.connect(user=extra['userDB'], password=extra['userPassDB'],
+                             host=extra['hostDB'],
+                             database=extra['database'],
+                             charset='utf8mb4',
+                             cursorclass=pymysql.cursors.DictCursor)
     cursor = conn.cursor()
     sql = "SELECT  idCr FROM Player WHERE idTelegram = %s "
     cursor.execute(sql,(idUser))
@@ -270,7 +254,6 @@ def isDuplicateInDB(tag):
         registrado = False
     else:
         row = cursor.fetchone()
-        print(row)
         playerTagDB = str(row["idCr"])
         if "#" in playerTagDB.lower():
             playerTagDB = x.replace("#", "")
@@ -278,5 +261,4 @@ def isDuplicateInDB(tag):
             registrado = True
     cursor.close()
     conn.close()
-    print(registrado)
     return registrado

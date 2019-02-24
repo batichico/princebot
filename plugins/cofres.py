@@ -60,7 +60,7 @@ def function_chests(m):
             bot.send_message(cid, messageText, parse_mode='markdown'  )
             nextOnesStr =""
     else:
-        bot.send_message(cid, 'No estas registrado amig@\nPara registrarte utiliza el comando /registro y lee las indicaciones que se te explicará')
+        bot.send_message(cid, responses['a_not_registered'][lang(cid)])
 
 def getPlayerTag (idUser):
     playerTagDB = ""
