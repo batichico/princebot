@@ -11,7 +11,7 @@ def function_my_info(m):
     if len(lstPlayersInfo)>0:
         for playerInfo in lstPlayersInfo:
             arrayButtonsAccounts.append(types.InlineKeyboardButton(playerInfo[0],callback_data="playerInfo / "+playerInfo[0]+" / "+playerInfo[1]))
-        accountsKeyBoard.add(*arrayButtonsAccounts,types.InlineKeyboardButton('Volver', callback_data='ver'))
+        accountsKeyBoard.add(*arrayButtonsAccounts)
         bot.send_message(cid,responses['name_accounts'][lang(cid)], reply_markup=accountsKeyBoard)
     else:
         bot.send_message(cid, responses['a_not_registered'][lang(cid)])
@@ -28,10 +28,10 @@ def callback_player_menu(call):
     if len(lstPlayersInfo)>0:
         for playerInfo in lstPlayersInfo:
             arrayButtonsAccounts.append(types.InlineKeyboardButton(playerInfo[0],callback_data="playerInfo / "+playerInfo[0]+" / "+playerInfo[1]))
-        accountsKeyBoard.add(*arrayButtonsAccounts,types.InlineKeyboardButton('Volver', callback_data='ver'))
-        bot.send_message(cid,responses['name_accounts'][lang(cid)], reply_markup=accountsKeyBoard)
+        accountsKeyBoard.add(*arrayButtonsAccounts)
+        bot.edit_message_text(responses['name_accounts'][lang(cid)],cid,mid, reply_markup=accountsKeyBoard)
     else:
-        bot.send_message(cid, responses['a_not_registered'][lang(cid)])
+        bot.edit_message_text(responses['a_not_registered'][lang(cid)],cid,mid)
 
 @bot.callback_query_handler(func=lambda call: call.data.startswith('playerInfo'))
 def callback_player_Info(call):
