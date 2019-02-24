@@ -103,20 +103,6 @@ def createDeck(cid,link):
 
         return rutaCreacion
 
-        '''
-        image = bot.send_photo( cidChanell, open( '/home/PrinceAlfa/files/mazos/creaciones/result.png', 'rb'))
-        fileID = image.photo[-1].file_id
-
-        click_kb = types.InlineKeyboardMarkup()
-        click_kb.add(types.InlineKeyboardButton('Copiar', url = link ),types.InlineKeyboardButton('Copiar Guerra', url = linkMazoguerra ),types.InlineKeyboardButton("Compartir deck", switch_inline_query="deck {}".format(fileID)))
-
-        time.sleep(5)
-
-        bot.send_photo( cid, fileID, reply_markup=click_kb)
-
-        bot.delete_message(cid, message.message_id)
-        '''
-
     else:
         compartirDeck=""
 
